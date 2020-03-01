@@ -1,0 +1,65 @@
+body {
+    background-color: #fedbc7;
+    padding: 20px;
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    color: #43367c;
+}
+
+table {
+    border: 1px solid black;
+    margin-left: 35%;
+    border-style: groove;
+    border-width: 30%;
+    padding: 10px;
+}
+
+td {
+    border: 5px solid;
+    border-style: groove;
+    padding: 10px;
+}
+
+select {
+    -webkit-appearance: none;
+    border-radius: 0;
+    padding: 3px 10px;
+    width: 200px;
+}
+
+input {
+    width: 200px;
+    height: 15px;
+}
+
+button {
+    border: none;
+    padding: 6px 15px;
+}
+
+.button {
+    margin-top: 25px;
+    margin-left: 45%;
+}
+
+.res {
+    display: none;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#totalamount {
+    font-style: italic;
+    color: #43367c;
+    font-size: 20px;
+}
+
+#accumulated {
+    font-style: italic;
+    color: #51a98d;
+    font-size: 25px;
+}

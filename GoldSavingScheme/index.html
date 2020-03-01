@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <title>Calculator</title>
+  
+  <link rel="stylesheet" href="style.css">
+  
+</html>
+<body>
+  <div class="container">
+  <h1>Yellow Glitters' Gold Saving Scheme</h1>
+  <table>
+    <tr>
+      <td>Scheme Type</td>
+      <td>
+        <select id="scheme">
+          <option value="Golden10">Golden 10 Harvest</option>
+          <option value="Gold">Gold Treasure</option>
+          <option value="Jewels">Jewels for less</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Duration</td>
+      <td><input id="duration" value="" type="number"></td>
+    </tr>
+    <tr>
+      <td>Installment Amount</td>
+      <td><input id="instAmt" value="" type="number"></td>
+    </tr>
+    <tr>
+      <td>Current Gold Price</td>
+      <td><input id="goldPrice" value="" type="number"></td>
+    </tr>
+  </table>
+    <div class="button">
+      <button id="btn_submit">SUBMIT</button>
+  <button id="btn_clear">CLEAR</button>
+    </div>
+  
+  </div>
+  
+  <div class="res">
+    <div id="totalamount">Total Amount Paid : Rs. <span id="totalamount_res"></span></div>
+    <div id="accumulated">Accumulated Gold : <span id="acc_res"></span>grams</div>
+  </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
+
+
